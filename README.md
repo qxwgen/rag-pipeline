@@ -151,10 +151,11 @@ pytest tests/ -v
 
 💡 *rag-pipeline was built to understand RAG systems from the ground up — the kind of knowledge you only get by building the whole pipeline yourself.*
 
-
-references
+---
+#  References
 Lewis et al. (2020) — Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks
 Reimers & Gurevych (2019) — Sentence-BERT
 Johnson et al. (2017) — Billion-scale similarity search with FAISS
 
 
+---
