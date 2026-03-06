@@ -1,0 +1,16 @@
+# Core
+numpy>=1.24
+sentence-transformers>=2.7
+faiss-cpu>=1.7
+
+# PDF parsing (optional but recommended)
+pymupdf>=1.24        # fitz
+
+# LLM backends (choose one or both)
+openai>=1.0          # for OpenAI generator
+transformers>=4.40   # for HuggingFace generator
+torch>=2.0           # for HuggingFace generator
+
+# Dev / testing
+pytest>=7.4
+python-dotenv>=1.0

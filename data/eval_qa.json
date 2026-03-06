@@ -1,0 +1,17 @@
+[
+  {
+    "query": "What is the attention mechanism in transformers?",
+    "gold_answer": "Attention allows the model to focus on relevant parts of the input sequence when producing each output token, computing weighted sums of value vectors based on query-key similarities.",
+    "gold_source": "attention_is_all_you_need.pdf"
+  },
+  {
+    "query": "What are the main limitations of BERT?",
+    "gold_answer": "BERT cannot generate text autoregressively, has a fixed input length of 512 tokens, and requires significant compute for fine-tuning.",
+    "gold_source": "bert_paper.pdf"
+  },
+  {
+    "query": "How does RAG reduce hallucinations?",
+    "gold_answer": "RAG grounds the LLM by conditioning generation on retrieved passages from a trusted corpus, so the model produces answers supported by evidence rather than relying solely on parametric memory.",
+    "gold_source": "rag_paper.pdf"
+  }
+]
